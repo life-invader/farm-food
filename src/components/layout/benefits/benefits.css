@@ -1,0 +1,23 @@
+.benefits {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 100px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__title {
+  text-align: center;
+  margin: 0;
+}
+
+.benefits__list {
+  list-style: none;
+  margin: 64px 0 64px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}

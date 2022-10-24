@@ -1,0 +1,26 @@
+.benefit {
+  padding: 20px;
+  background-color: #e1edce;
+  height: 100%;
+}
+
+.benefit__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 72px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.benefit__title {
+  margin: 4px 0 0;
+}
+
+.benefit__type {
+  order: -1;
+}
+
+.benefit__text {
+  margin: 20px 0 0;
+}

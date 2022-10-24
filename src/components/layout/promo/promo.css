@@ -1,0 +1,28 @@
+.promo {
+  background-color: #d8ecfe;
+  position: relative;
+}
+
+.promo__container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 183px 90px;
+  background-image: url("../../../assets/img/dude.svg");
+  background-repeat: no-repeat;
+  background-position: right 90px top 37px;
+}
+
+.promo__wrapper {
+  max-width: 510px;
+}
+
+.promo__title {
+  font-size: 44px;
+  line-height: 51px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.promo__text {
+  margin: 24px 0 0;
+}
