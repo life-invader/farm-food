@@ -2,7 +2,7 @@ import Button from '../../ui/button/button';
 import Benefit from '../benefit/benefit';
 import './benefits.css';
 
-function Benefits({ benefits }) {
+function Benefits({ benefits = [] }) {
   return (
     <section className="benefits">
       <h2 className="benefits__title">Почему фермерские продукты лучше?</h2>

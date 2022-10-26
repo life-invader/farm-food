@@ -1,4 +1,4 @@
-import BenefitsType from '../../ui/benefits-type/benefits-type';
+import BenefitsType from '../benefits-type/benefit-type';
 import { BenefitTypeEnum } from '../../../constants/benefits';
 import './benefit.css';
 
@@ -18,10 +18,10 @@ function Benefit({ type, title, text, img, type_title }) {
 
   return (
     <article className="benefit" style={BenefitOptions[type]}>
-      <div className="benefit__intro" style={imgOptions}>
+      <header className="benefit__header" style={imgOptions}>
         <h3 className="benefit__title">{title}</h3>
         <BenefitsType className="benefit__type" type={type} title={type_title} />
-      </div>
+      </header>
       <p className="benefit__text">{text}</p>
     </article>
   );

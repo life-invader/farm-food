@@ -1,11 +1,11 @@
-import Benefits from '../../layout/benefits/benefits';
-import Promo from '../../layout/promo/promo';
+import Benefits from '../../blocks/benefits/benefits';
+import Promo from '../../blocks/promo/promo';
 
-function MainPage() {
+function MainPage({ benefits }) {
   return (
     <>
       <Promo />
-      <Benefits />
+      <Benefits benefits={benefits} />
     </>
   );
 }

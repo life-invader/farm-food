@@ -1,3 +1,8 @@
+import { createGlobalStyle } from 'styled-components';
+
+// Глобальные стили
+
+const GlobalStyle = createGlobalStyle`
 *,
 *::after,
 *::before {
@@ -20,3 +25,6 @@ body {
   font-weight: 400;
   color: #333333;
 }
+`;
+
+export default GlobalStyle;
