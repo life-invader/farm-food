@@ -1,19 +1,19 @@
-import './promo.css';
+import { PromoContainer, Section, PromoWrapper, Title, Text } from './styled';
 
 function Promo() {
   return (
-    <section className="promo">
-      <div className="promo__container">
-        <div className="promo__wrapper">
-          <h2 className="promo__title">Магазин фермерских продуктов с доставкой</h2>
-          <p className="promo__text">
+    <Section>
+      <PromoContainer>
+        <PromoWrapper>
+          <Title>Магазин фермерских продуктов с доставкой</Title>
+          <Text>
             Все продукты изготавливаются под заказ. Фермеры начинают готовить продукты за день до
             отправки заказа клиентам. Именно поэтому мы принимаем заказы заранее и доставляем
             продукты максимально свежими.
-          </p>
-        </div>
-      </div>
-    </section>
+          </Text>
+        </PromoWrapper>
+      </PromoContainer>
+    </Section>
   );
 }
 

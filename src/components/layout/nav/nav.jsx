@@ -3,7 +3,7 @@ import Button from '../../ui/button/button';
 function Nav() {
   return (
     <nav>
-      <Button>Купить</Button>
+      <Button type="button">Купить</Button>
     </nav>
   );
 }

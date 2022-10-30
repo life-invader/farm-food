@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 // Глобальные стили
-
 const GlobalStyle = createGlobalStyle`
 *,
 *::after,
@@ -15,15 +14,12 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: ${({ theme }) => theme.fontFamily};
   min-height: 100%;
-}
-
-body {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-  color: #333333;
+  color: ${({ theme }) => theme.fontMainColor};
 }
 `;
 

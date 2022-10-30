@@ -1,23 +1,23 @@
 import Button from '../../ui/button/button';
 import Benefit from '../benefit/benefit';
-import './benefits.css';
+import { BenefitsSection, Title, BenefitsList } from './styled';
 
 function Benefits({ benefits = [] }) {
   return (
-    <section className="benefits">
-      <h2 className="benefits__title">Почему фермерские продукты лучше?</h2>
-      <ul className="benefits__list">
+    <BenefitsSection>
+      <Title>Почему фермерские продукты лучше?</Title>
+      <BenefitsList>
         {benefits.map((item) => {
           return (
-            <li className="benefits__item" key={item.id}>
+            <li key={item.id}>
               <Benefit {...item} />
             </li>
           );
         })}
-      </ul>
+      </BenefitsList>
 
-      <Button>Купить</Button>
-    </section>
+      <Button type="button">Купить</Button>
+    </BenefitsSection>
   );
 }
 

@@ -1,18 +1,20 @@
-.logo__link {
+import styled from 'styled-components';
+
+export const LogoLink = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
   transition: all 0.2s;
-}
 
-.logo__link:hover {
-  opacity: 0.7;
-}
+  &:hover {
+    opacity: 0.7;
+  }
+`;
 
-.logo__text {
+export const Text = styled.span`
   margin-left: 28px;
   font-size: 28px;
   line-height: 32px;
   font-weight: 700;
   color: #333333;
-}
+`;

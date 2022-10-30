@@ -1,12 +1,13 @@
 import Logo from '../../ui/logo/logo';
-import './footer.css';
+import { P } from '../../../elements';
+import { StyledFooter } from './styled';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <StyledFooter>
       <Logo />
-      <p className="footer__date">Создано 2022</p>
-    </footer>
+      <P className="footer__date">Создано 2022</P>
+    </StyledFooter>
   );
 }
 

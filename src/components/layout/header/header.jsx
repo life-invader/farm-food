@@ -1,13 +1,13 @@
 import Logo from '../../ui/logo/logo';
 import Nav from '../nav/nav';
-import './header.css';
+import { StyledHeader } from './styled';
 
 function Header() {
   return (
-    <header className="header">
+    <StyledHeader>
       <Logo />
       <Nav />
-    </header>
+    </StyledHeader>
   );
 }
 
