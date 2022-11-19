@@ -15,11 +15,18 @@ html {
 body {
   margin: 0;
   font-family: ${({ theme }) => theme.fontFamily};
-  min-height: 100%;
+  height: 100%;
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
   color: ${({ theme }) => theme.fontMainColor};
+  position: relative;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 `;
 

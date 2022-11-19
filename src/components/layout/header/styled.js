@@ -5,6 +5,6 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 10px 90px;
-  max-width: ${(props) => props.theme.pageWidth};
+  width: ${(props) => props.theme.pageWidth};
   margin: 0 auto;
 `;

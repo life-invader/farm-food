@@ -4,7 +4,7 @@ const Button = styled.button`
   display: block;
   min-height: 60px;
   min-width: 260px;
-  max-width: 100%;
+  width: ${(props) => (props.fullWidth ? '100%' : null)};
   padding: 16px;
   color: #ffffff;
   background-color: #fc9b27;
